@@ -44,6 +44,7 @@
 }
 .noteBodyBodyText {
   word-break: break-all;
+  word-spacing: 2px;
 }
 .noteIinformationTags div {
   overflow: scroll;
