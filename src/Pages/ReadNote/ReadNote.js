@@ -36,14 +36,16 @@ export function ReadNote() {
         </div>
         <div className="noteIinformationTags">
           <span className="noteInformationFirstChild">Tags : </span>
-          {noteToRead.noteTags.map((tag) => (
-            <span
-              className="noteIinformationTagstag touchableOpacity"
-              style={{ backgroundColor: theme.depthColor }}
-            >
-              {tag.replace(",", "")}
-            </span>
-          ))}
+          <div className="div">
+            {noteToRead.noteTags.map((tag) => (
+              <span
+                className="noteIinformationTagstag touchableOpacity"
+                style={{ backgroundColor: theme.depthColor }}
+              >
+                {tag.replace(",", "")}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
       <div className="noteToReadBody">
