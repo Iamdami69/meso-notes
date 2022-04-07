@@ -45,3 +45,9 @@
 .noteBodyBodyText {
   text-align: justify;
 }
+.noteIinformationTags {
+  overflow: scroll;
+}
+.noteIinformationTags::-webkit-scrollbar {
+  display: none;
+}
