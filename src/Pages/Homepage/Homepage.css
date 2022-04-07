@@ -15,7 +15,6 @@
   text-transform: capitalize;
 }
 .noteBody {
-  opacity: 70%;
   font-size: 22px;
   padding-top: 20px;
   overflow-y: scroll;
