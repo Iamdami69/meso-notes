@@ -43,16 +43,13 @@
   display: none;
 }
 .noteBodyBodyText {
-  text-align: justify;
+  word-break: break-all;
 }
 .noteIinformationTags div {
   overflow: scroll;
+  display: flex;
+  gap: 10px;
 }
 .noteIinformationTags div::-webkit-scrollbar {
   display: none;
-}
-.noteIinformationTags div span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
