@@ -1,0 +1,97 @@
+.Homepage {
+  padding: 0 5px 10px 5px;
+}
+
+.Homepage::-webkit-scrollbar {
+  display: none;
+}
+
+.noteTitle {
+  font-size: 22px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+.noteBody {
+  opacity: 70%;
+  font-size: 22px;
+  padding-top: 20px;
+  overflow-y: scroll;
+  height: 60%;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  word-wrap: break-word;
+  word-spacing: 1px;
+  /* text-align: justify; */
+}
+.noteBody::-webkit-scrollbar {
+  display: none;
+}
+.createNewNoteBox {
+  height: 300px;
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContentContainer {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fill, 265px);
+}
+@media (max-width: 660px) {
+  .homeContentContainer {
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}
+.note {
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+  height: 300px;
+}
+.noteFooter {
+  padding: 10px 0 0 0;
+  margin-top: 10px;
+  position: relative;
+}
+.noteFooterContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.noteFooter span {
+  opacity: 70%;
+}
+.noteMenu {
+  position: absolute;
+  top: -65px;
+  right: 30px;
+  border-radius: 5px;
+  display: none;
+  height: 126px;
+  width: 120px;
+  padding: 5px;
+}
+.showMenu .noteMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.noteMenu div:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.noteMenu div {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.noteMenu div:hover {
+  opacity: 50%;
+}

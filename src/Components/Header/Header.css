@@ -1,0 +1,19 @@
+.headerSearch input {
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+}
+.headerSearch {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

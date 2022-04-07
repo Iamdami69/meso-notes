@@ -1,0 +1,10 @@
+.SecondaryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noteHeaderText {
+  font-size: clamp(3rem, 8vw - 2rem, 5rem);
+  font-weight: 700;
+}

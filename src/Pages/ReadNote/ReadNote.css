@@ -1,0 +1,47 @@
+.readNoteHeaderText {
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 0 0 10px;
+}
+.noteInformation {
+  padding: 30px 0 30px 10px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.noteInformationHeading {
+  font-size: clamp(1.8rem, 8vw - 2rem, 3rem);
+}
+.noteIinformationCreatedBy,
+.noteIinformationLastModified,
+.noteIinformationTags {
+  display: flex;
+  gap: 10px;
+}
+.noteInformationFirstChild {
+  width: 120px;
+}
+.noteIinformationTagstag {
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.noteToReadBody {
+  padding: 30px 10px;
+}
+.noteBodyHeadText {
+  white-space: nowrap;
+  overflow-x: scroll;
+  font-weight: 600;
+  font-size: clamp(2rem, 8vw - 2rem, 3rem);
+}
+.noteBodyHeadText::-webkit-scrollbar {
+  display: none;
+}
+.noteBodyBodyText {
+  text-align: justify;
+}
